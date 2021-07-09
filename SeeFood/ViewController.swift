@@ -16,7 +16,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
         super.viewDidLoad()
         imagePicker.delegate = self
         imagePicker.sourceType = .photoLibrary
-        imagePicker.allowsEditing = false
+        imagePicker.allowsEditing = true
     }
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
